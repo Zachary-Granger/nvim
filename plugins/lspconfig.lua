@@ -10,6 +10,18 @@ vim.lsp.config('gdscript', {
 	cmd = vim.lsp.rpc.connect('127.0.0.1', 6005)
 })
 
+-- Add vim to runtime so that lua doesn't throw a bunch of unnecessary warnings
+vim.lsp.config('lua_ls', {
+	settings = {
+		Lua = {
+			workspace = {
+				library = vim.api.nvim_get_runtime_file("", true)
+			}
+		}
+	}
+})
+
+
 -- Automatic suggestions while typing instead of needing ctrl-x + ctrl-o
 vim.api.nvim_create_autocmd('LspAttach', {
 	callback = function(ev)
