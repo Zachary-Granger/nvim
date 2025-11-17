@@ -11,7 +11,7 @@ require('plugins.dap')
 require('plugins.fzf')
 require('plugins.whichkey')
 require('plugins.blink')
-
+require('plugins.treesitter')
 
 -- setup to automatically make godot projects listen to the godot pipe
 local is_godot_project = string.find(vim.fn.getcwd(), '/home/kingpine/Documents/godot/')
