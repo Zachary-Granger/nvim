@@ -10,6 +10,7 @@ require('plugins.lspconfig')
 require('plugins.dap')
 require('plugins.fzf')
 require('plugins.whichkey')
+require('plugins.blink')
 
 
 -- setup to automatically make godot projects listen to the godot pipe
