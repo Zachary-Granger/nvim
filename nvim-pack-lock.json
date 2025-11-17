@@ -17,6 +17,10 @@
       "rev": "abad16fa530926b34413f7763cb2c202bcf5b392",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
+    "nvim-autopairs": {
+      "rev": "7a2c97cccd60abc559344042fefb1d5a85b3e33b",
+      "src": "https://github.com/windwp/nvim-autopairs"
+    },
     "nvim-dap": {
       "rev": "b38f7d30366d9169d0a623c4c85fbcf99d8d58bb",
       "src": "https://github.com/mfussenegger/nvim-dap"
