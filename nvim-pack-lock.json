@@ -1,0 +1,41 @@
+{
+  "plugins": {
+    "aether": {
+      "rev": "89ccaae78a1f263fdf698f9e506bfaf82c59890e",
+      "src": "https://github.com/bjarneo/aether.nvim"
+    },
+    "aether.nvim": {
+      "rev": "89ccaae78a1f263fdf698f9e506bfaf82c59890e",
+      "src": "https://github.com/bjarneo/aether.nvim"
+    },
+    "blink.cmp": {
+      "rev": "b19413d214068f316c78978b08264ed1c41830ec",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "'1.*'"
+    },
+    "fzf-lua": {
+      "rev": "abad16fa530926b34413f7763cb2c202bcf5b392",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "nvim-dap": {
+      "rev": "b38f7d30366d9169d0a623c4c85fbcf99d8d58bb",
+      "src": "https://github.com/mfussenegger/nvim-dap"
+    },
+    "nvim-lspconfig": {
+      "rev": "781e4bdf427d0fb17ceef2ee4db172a29825fd73",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "oil.nvim": {
+      "rev": "7e1cd7703ff2924d7038476dcbc04b950203b902",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "vague.nvim": {
+      "rev": "dba28050887c2810b5ebf9e0143b4e919bd55757",
+      "src": "https://github.com/vague2k/vague.nvim"
+    },
+    "which-key.nvim": {
+      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}
