@@ -1,5 +1,6 @@
 -- Add the config directory to package.path
-package.path = package.path .. ";/home/kingpine/.config/nvim/?.lua"
+NVIM_DIRECTORY = ";" .. os.getenv("HOME") .. "/.config/nvim/?.lua"
+package.path = package.path .. NVIM_DIRECTORY
 
 require('options')
 require('keybinds')
