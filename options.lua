@@ -5,7 +5,15 @@ vim.o.swapfile = false
 vim.o.relativenumber = true
 vim.o.signcolumn = "yes"
 vim.o.winborder = "rounded"
+vim.o.scrolloff = 15
 
+-- Case-insensitive search unless capital letters are in the search term
+vim.o.ignorecase = true
+vim.o.smartcase = true
+
+
+-- Clear highlights on search when pressing <Esc> in normal mode
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- highlight text when yanking
 vim.api.nvim_create_autocmd('TextYankPost', {
