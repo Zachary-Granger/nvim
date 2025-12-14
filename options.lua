@@ -11,6 +11,8 @@ vim.o.scrolloff = 15
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
+vim.diagnostic.config({ virtual_text = true })
+
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
