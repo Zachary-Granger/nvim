@@ -82,4 +82,4 @@ vim.lsp.config('lua_ls', {
 -- 	},
 -- })
 
-vim.lsp.enable({ 'gdscript', 'gdshader_lsp', 'lua_ls', 'jdtls' })
+vim.lsp.enable({ 'gdscript', 'gdshader_lsp', 'lua_ls', 'jdtls', 'html', 'cssls' })

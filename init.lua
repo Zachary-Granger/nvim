@@ -15,6 +15,8 @@ require('plugins.blink')
 require('plugins.treesitter')
 require('plugins.autopairs')
 require('plugins.mason')
+require('plugins.plenary')
+require('plugins.typescript-tools')
 
 -- setup to automatically make godot projects listen to the godot pipe
 local is_godot_project = string.find(vim.fn.getcwd(), '/home/kingpine/Documents/godot/')

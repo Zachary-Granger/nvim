@@ -3,6 +3,7 @@ vim.pack.add({
 })
 
 require("nvim-treesitter.configs").setup({
-	ensure_installed = { 'gdscript', 'godot_resource', 'gdshader' },
-	highlight = { enable = true }
+	ensure_installed = { 'gdscript', 'godot_resource', 'gdshader', 'java', 'tsx', 'html', 'css' },
+	highlight = { enable = true },
+	indent = { enable = true}
 })
