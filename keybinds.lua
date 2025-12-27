@@ -5,10 +5,11 @@ vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>', { desc = 'source con
 -- Plugin keybinds
 vim.keymap.set('n', '-', ':Oil<CR>')
 
-vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { desc = 'format' })
-vim.keymap.set('n', '<leader>lr', vim.lsp.buf.references, {desc = 'references' })
-vim.keymap.set('n', '<leader>lR', vim.lsp.buf.rename, {desc = 'rename' })
+vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { desc = 'Format' })
+vim.keymap.set('n', '<leader>lr', vim.lsp.buf.references, {desc = 'References' })
+vim.keymap.set('n', '<leader>lR', vim.lsp.buf.rename, {desc = 'Rename' })
 vim.keymap.set('n', '<leader>ld', vim.lsp.buf.definition, {desc = 'Goto definition' })
+vim.keymap.set('n', '<leader>lc', vim.lsp.buf.code_action, {desc = 'Code Action' })
 
 vim.keymap.set('n', '<leader>ff', ':FzfLua files<CR>', { desc = 'search files' })
 vim.keymap.set('n', '<leader><leader>', ':FzfLua buffers<CR>', { desc = 'search buffers' })
