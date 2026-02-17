@@ -15,7 +15,12 @@ vim.keymap.set('n', '<leader>ld', vim.lsp.buf.definition, { desc = 'Goto definit
 vim.keymap.set('n', '<leader>lD', vim.lsp.buf.declaration, { desc = 'Goto declaration' })
 vim.keymap.set('n', '<leader>lc', vim.lsp.buf.code_action, { desc = 'Code Action' })
 
-vim.keymap.set('n', '<leader>ff', ':Telescope find_files<CR>', { desc = 'search files' })
-vim.keymap.set('n', '<leader><leader>', ':Telescope buffers<CR>', { desc = 'search buffers' })
-vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { desc = 'grep files' })
-vim.keymap.set('n', '<leader>fh', ':Telescope help_tags<CR>', { desc = 'search help tags' })
+vim.keymap.set('n', '<leader>ff', ':Telescope find_files<CR>', { desc = 'Search files' })
+vim.keymap.set('n', '<leader><leader>', ':Telescope buffers<CR>', { desc = 'Search buffers' })
+vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { desc = 'Grep files' })
+vim.keymap.set('n', '<leader>fh', ':Telescope help_tags<CR>', { desc = 'Search help tags' })
+
+vim.keymap.set('n', '<leader>db', ':DapToggleBreakpoint<CR>', { desc = 'Toggle breakpoint' })
+vim.keymap.set('n', '<leader>dc', ':DapContinue<CR>', { desc = 'Continue debugging' })
+vim.keymap.set('n', '<leader>do', ':DapStepOver<CR>', { desc = 'Step over' })
+vim.keymap.set('n', '<leader>do', ':DapStepInto<CR>', { desc = 'Step into' })

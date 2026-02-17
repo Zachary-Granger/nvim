@@ -17,6 +17,10 @@
       "rev": "abad16fa530926b34413f7763cb2c202bcf5b392",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
+    "godotdev.nvim": {
+      "rev": "79d9315988b7772c03a1cabb6f31f5287c849e2b",
+      "src": "https://github.com/Mathijs-Bakker/godotdev.nvim"
+    },
     "indent-blankline.nvim": {
       "rev": "005b56001b2cb30bfa61b7986bc50657816ba4ba",
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
@@ -24,6 +28,10 @@
     "mason.nvim": {
       "rev": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800",
       "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "no-neck-pain.nvim": {
+      "rev": "4bc52782524fd50c5658685d584df6fa48fe49f9",
+      "src": "https://github.com/shortcuts/no-neck-pain.nvim"
     },
     "nvim-autopairs": {
       "rev": "7a2c97cccd60abc559344042fefb1d5a85b3e33b",
@@ -33,9 +41,17 @@
       "rev": "b38f7d30366d9169d0a623c4c85fbcf99d8d58bb",
       "src": "https://github.com/mfussenegger/nvim-dap"
     },
+    "nvim-dap-ui": {
+      "rev": "cf91d5e2d07c72903d052f5207511bf7ecdb7122",
+      "src": "https://github.com/rcarriga/nvim-dap-ui"
+    },
     "nvim-lspconfig": {
       "rev": "781e4bdf427d0fb17ceef2ee4db172a29825fd73",
       "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-nio": {
+      "rev": "21f5324bfac14e22ba26553caf69ec76ae8a7662",
+      "src": "https://github.com/nvim-neotest/nvim-nio"
     },
     "nvim-treesitter": {
       "rev": "42fc28ba918343ebfd5565147a42a26580579482",
