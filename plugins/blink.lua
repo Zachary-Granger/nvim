@@ -7,7 +7,10 @@ vim.pack.add({
 })
 
 require('blink.cmp').setup({
-	keymap = { preset = 'default' },
+	keymap = {
+		preset = 'default',
+		['<Tab>'] = { 'accept', 'fallback' }
+	},
 	appearance = {
 		nerd_font_variant = 'mono'
 	},
@@ -18,7 +21,4 @@ require('blink.cmp').setup({
 		default = { 'lsp', 'path', 'snippets', 'buffer' }
 	},
 	fuzzy = { implementation = 'prefer_rust_with_warning' },
-	keymap = {
-		['<Tab>'] = { 'accept', 'fallback' }
-	}
 })
