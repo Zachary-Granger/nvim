@@ -19,6 +19,7 @@ require('plugins.typescript-tools')
 require('plugins.rainbow-delimiters')
 require('plugins.indent-blankline')
 require('plugins.telescope')
+require('plugins.colorizer')
 
 -- setup to automatically make godot projects listen to the godot pipe
 local is_godot_project = string.find(vim.fn.getcwd(), '/home/kingpine/Documents/godot/')
